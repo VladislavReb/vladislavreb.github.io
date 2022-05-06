@@ -1,0 +1,15 @@
+$main_bkg: #263238;
+$main_text_color: #000000;
+$p_color: #8F95A5;
+
+@mixin button {
+  text-decoration: none;
+  background-color: $main_bkg;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+@mixin button_hover {
+  color: $main_bkg;
+  background-color: #FFFFFF;
+}
